@@ -1,0 +1,96 @@
+body {
+    background-image: url("lights1.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    
+    text-align: center;
+    margin-bottom: 20px; /* Space between the header and the calculator */
+}
+
+.text-with-background {
+    font-size: 72px; /* Adjust font size as needed */
+    font-weight: bold; /* Optional: Makes text bold */
+    background-image: url('lights7.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the background image covers the text */
+    -webkit-background-clip: text; /* For WebKit browsers */
+    background-clip: text; /* Clipping the background image to the text */
+    color: transparent; /* Hides the default text color */
+    padding: 20px; /* Optional: Adds space around the text */
+    text-align: center; /* Centers the text */
+    margin: 0; /* Ensure no extra margins are applied */
+}
+
+.calculator {
+    
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgb(231, 183, 62);
+}
+
+.display {
+    
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    font-size: 18px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 5px 5px 6px rgb(176, 129, 8);
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #ccc;
+}
+
+button.equal {
+    grid-column: span 4;
+    background-color:goldenrod;
+    color: #fff;
+}
+
+button.operator {
+    background-color: #f5a623;
+    color: #fff;
+}
+
+button.operator:active {
+    background-color: #e5941a;
+}
+
+button.clear {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+button.clear:active {
+    background-color: #c9302c;
+}
