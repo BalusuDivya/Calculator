@@ -1,0 +1,1 @@
+"I created a user-friendly arithmetic calculator capable of handling addition, subtraction, multiplication, and division. The calculator's intuitive interface features numbered buttons and operation symbols, providing immediate results. Developed with HTML, CSS, and JavaScript, this calculator ensures efficient calculations and seamless user interactions."
